@@ -25,10 +25,12 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/amplitudejs"
-  },
-  "scripts": {
-    "start": "node your-script.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "scripts": {	  "scripts": {
+    "build": "node_modules/.bin/webpack",	    "start": "node your-script.js",
+    "watch": "watch 'node_modules/.bin/webpack' dist",	    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "npx pretty-quick",	
+    "test": "jest"	
   },
   "repository": {
     "type": "git",
