@@ -27,10 +27,8 @@
     "url": "https://opencollective.com/amplitudejs"
   },
   "scripts": {
-    "build": "node_modules/.bin/webpack",
-    "watch": "watch 'node_modules/.bin/webpack' dist",
-    "prettier": "npx pretty-quick",
-    "test": "jest"
+    "start": "node your-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
